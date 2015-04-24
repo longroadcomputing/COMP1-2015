@@ -13,3 +13,5 @@ Each task sheet below **builds** on the previous one. You **must complete** all 
 
 - [Task Sheet 1 - Validation Improvements](COMP1_2015_Task1.md)
 - [Task Sheet 2 - User Interface and Game Improvements](COMP1_2015_Task2.md)
+- [Task Sheet 3 - Further Game Improvements](COMP1_2015_Task3.md)
+- [Task Sheet 4 - Other Improvements](COMP1_2015_Task4.md)
