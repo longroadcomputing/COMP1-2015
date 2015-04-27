@@ -17,6 +17,7 @@ Attempt the **exercises** below.
 ---
 1. **Identify** the function responsible for positioning the Sarrum and Marzaz Pani pieces during the setup of the board.
 2. **Make** the neccessary changes to this function so that the setup positioning reflects the screenshot above.
+
 ---
 
 ##Task 22 - Kashshaptu
@@ -48,6 +49,7 @@ Attempt the **exercises** below.
 5. The Kashshaptu piece can move as if it were any of the other pieces, except the Sarrum. **Write** a function that will check to make sure the Kashshaptu move is legal. In addition, make any other improvements necessary to ensure that a Kashshaptu move is recognised correctly.
 6. If you completed **Question 10** in **Task Sheet 1** you might want to ensure that the game detects when a Kashshaptu has been used to place a Sarrum in check. This exercise is **optional**.
 7. Write a **test plan** to ensure that the Kashshaptu functionality works as intended.
+
 ---
 
 ##Task 23 - Hall of Fame
@@ -63,6 +65,7 @@ Attempt the **exercises** below.
 
 ---
 1. **Write** a new function called `display_high_scores()` that takes a list of scores as an argument and then either presents an appropriate formatted table of the scores (similar to the one given above) or a message saying that there are currently no scores.
+
 ---
 
 In order to add their name and score to the table the winner of each game should be prompted as shown:
@@ -80,6 +83,7 @@ Attempt the **exercises** below.
     - Colour played
     - Number of moves taken
     - The current date
+
 ---
 
 ##Task 24 - Save Hall of Fame
@@ -92,6 +96,7 @@ Attempt the **exercises** below.
 ---
 1. **Write** a new function called `save_high_scores()` that takes `scores` as an argument and then saves then to either a binary or text file.
 2. **Modify** the program so that the `save_high_scores()` function is called before the program exits.
+
 ---
 
 ##Task 25 - Load Hall of Fame
@@ -102,6 +107,7 @@ Attempt the **exercises** below.
 ---
 1. **Write** a new function called `load_high_scores()` that loads the scores from a file and then returns the list of scores. **Ensure** that your function can deal with the situation where no file is found.
 2. **Modify** the program so that the `load_high_scores()` function is called when the program launches.
+
 ---
 
 ##Task 26 - Save and Load Board Games
@@ -132,6 +138,7 @@ Attempt the **exercises** below.
 3. **Make** any necessary changes to the program so that it is possible to call the `save_board_state()` function from the in-game menu.
 4. **Write** a new function called `load_board_state()` that loads the board state from a file and returns it to the program.
 5. **Make** any necessary changes to the program so that it is possible to call the `load_board_state()` function from the main menu and then resume the saved game.
+
 ---
 
 ##Task 27 - Resume Current Game
@@ -146,7 +153,7 @@ If a game is in progress the program should detected this when selecting the fol
 - Start new game
 - Play sample game
 
-![](images/resume_game)
+![](images/resume_game.png)
 
 In the above screenshot the program prompts you to decide whether you want to continue the previous game or not.
 
@@ -155,6 +162,7 @@ Attempt the **exercises** below.
 ---
 1. **Make** any necessary changes to the game so that the state of the game is saved when quitting to the main menu.
 2. **Make** any necessary changes to the program so that the user has the option of restoring a previously started game when selecting "**Start new game**" or "**Play sample game**" from the main menu.
+
 ---
 
 ##Task 28 - Sort Hall of Fame
@@ -165,6 +173,7 @@ Attempt the **exercises** below.
 ---
 1. **Write** a new function called `sort_high_scores()` that will take the list of scores as a parameter and sort them appropriately. You should use the **bubble sort** algorithm to do this.
 2. **Make** any necessary changes to the program so that this new function is called before the scores are displayed.
+
 ---
 
 ##Next
